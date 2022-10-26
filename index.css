@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,200&display=swap');
+
+* {
+    background-color: rgb(218, 137, 137);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.gameContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    position: relative;
+    font-family: 'Roboto Serif', serif;
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.gameInfo {
+    position: absolute;
+    margin-left: 90vh;
+}
+
+.info {
+    font-size: 25px;
+}
+
+#reset {
+    margin-left: 4vh;
+    font-size: 15px;
+}
